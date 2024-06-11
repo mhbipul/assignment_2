@@ -1,0 +1,40 @@
+footer{
+    height: 100%;
+    margin-top: 80px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.part1-desc p{
+    font-size: 13px;
+    color: #B6B6B6;
+}
+.links{
+    display: flex;
+    margin-top: 18px;
+    gap: 10px;
+}
+.part2 p{
+    color: #B6B6B6;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#user-link{
+    margin-top: 30px;
+}
+#user-link a{
+    text-decoration: none;
+    color: #B6B6B6;
+    margin: 10px 0px;
+    
+}
+.user_link{
+    margin: 10px 0px;
+}
+.part4 p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #B6B6B6;
+}
