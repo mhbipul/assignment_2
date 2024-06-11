@@ -216,7 +216,7 @@
           <h1 style="font-weight: bold;">Most Popular Items</h1>
         </div>
         <div class="product_cards" style="margin-top: 30px;">
-          <div class="products">
+          <div id="products" class="products">
             <div class="product">
               <div class="product_image">
                 <img src="/img/product/product1.png" alt="">
@@ -408,7 +408,7 @@
 
         <div class="more-product-btn" ">
           <div class="see-more-button">
-            <button  ">See More Products 
+            <button onclick="handleShowMoreProducts()" >See More Products 
             </button>
           </div>
         </div>
@@ -510,8 +510,8 @@
               <h1 style="color: white; font-weight: bold;margin-bottom: 20px;">SubsCribe To Our NewsLetter</h1>
               <p style="color: white; font-size: 12px; margin-bottom: 18px;">Lorem ipsum dolor sit amet, consectetur adipidrscing elit. <br> Purus mauris sem sed urna venenatis vivamus. Egestas in <br> velit nulla viverra turpis id ac. Amet faucibus tempus.</p>
               <div class="wrapper" style="position: relative; width: 400px; max-width: 100%;">
-                <input type="email" name="" id="email" placeholder="Enter Your Email...">
-                <button id="sub-btn" ">Subscribe</button>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email...">
+                <button id="sub-btn" onclick="handleSubmission()">Subscribe</button>
               </div>
             </div>
           </div>
@@ -563,9 +563,14 @@
           <p>Mohammadpur,Dhaka</p>
           <p>01587659562</p>
           <p>021574657</p>
+         
         </div>
       </div>
 
     </footer>
+    <!-- footer Ends  -->
+
+    <!-- js  -->
+     <script src="/js/index.js"></script>
   </body>
 </html>
